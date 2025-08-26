@@ -1,11 +1,16 @@
 import React from 'react';
+import dose from '/dose.png';
+import language from '/language.png';
+import track from '/track.png';
+import update from '/update.png';
+import custom from '/custom.png';
 
 const featuresData = [
-  { img: '/dose.png', title: 'Add Doses', desc: 'Never lose track of your progress.' },
-  { img: '/language.png', title: 'Language Support', desc: 'Choose from our collection of 14 languages.' },
-  { img: '/track.png', title: 'Medication Tracking', desc: 'Monitor your improvements.' },
-  { img: '/update.png', title: 'Update Loved Ones', desc: 'Keep your contacts in the loop.' },
-  { img: '/custom.png', title: 'Customize App', desc: 'Pick from a variety of 5 colors, profile uploads, and more.' },
+  { img: dose, title: 'Add Doses', desc: 'Never lose track of your progress.' },
+  { img: language, title: 'Language Support', desc: 'Choose from our collection of 14 languages.' },
+  { img: track, title: 'Medication Tracking', desc: 'Monitor your improvements.' },
+  { img: update, title: 'Update Loved Ones', desc: 'Keep your contacts in the loop.' },
+  { img: custom, title: 'Customize App', desc: 'Pick from a variety of 5 colors, profile uploads, and more.' },
 ];
 
 const Features = () => (
