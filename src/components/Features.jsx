@@ -1,11 +1,11 @@
 import React from 'react';
 
 const featuresData = [
-  { img: '/icons/stay-logged-in.png', title: 'Add Doses', desc: 'Never lose track of your progress.' },
-  { img: '/icons/what-if-calculator.png', title: 'Language Support', desc: 'Choose from our collection of 14 languages.' },
-  { img: '/icons/progress-tracking.png', title: 'Medication Tracking', desc: 'Monitor your improvements.' },
-  { img: '/icons/gpa-calculator.png', title: 'Update Loved Ones', desc: 'Calculate your GPA easily.' },
-  { img: '/icons/all-your-grades.png', title: 'Customize App', desc: 'See every grade in one place.' },
+  { img: '/dose.png', title: 'Add Doses', desc: 'Never lose track of your progress.' },
+  { img: '/language.png', title: 'Language Support', desc: 'Choose from our collection of 14 languages.' },
+  { img: '/track.png', title: 'Medication Tracking', desc: 'Monitor your improvements.' },
+  { img: '/update.png', title: 'Update Loved Ones', desc: 'Keep your contacts in the loop.' },
+  { img: '/custom.png', title: 'Customize App', desc: 'Pick from a variety of 5 colors, profile uploads, and more.' },
 ];
 
 const Features = () => (

@@ -8,10 +8,10 @@ const Navbar = () => (
       <a href="#" className="logo">MedMindeRx</a>
       <ul className="nav-links">
         <li><a href="#features">Features</a></li>
-        <li><a href="#termsandconditions">Terms and Conditions</a></li>
-        <li><a href="#privacypolicy">Privacy Policy</a></li>
+        <li><a href="#terms">Terms and Conditions</a></li>
+        <li><a href="#privacy">Privacy Policy</a></li>
+        <li><a href="#opensource">Open Source License</a></li>
       </ul>
-      <a href="#download" className="btn-download ">Download App</a>
     </div>
   </nav>
 );

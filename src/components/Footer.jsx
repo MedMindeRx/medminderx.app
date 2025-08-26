@@ -7,12 +7,17 @@ const Footer = () => (
       <div className="about">
         <h1>MedMindeRx</h1>
         <p>Your medical companion for better health</p>
+        {/* Clickable email */}
+        <p>
+          Contact: <a href="mailto:medminderx.app@gmail.com">medminderx.app@gmail.com</a>
+        </p>
       </div>
       <div className="links">
         <ul>
           <li><a href="#features">Features</a></li>
-          <li><a href="#termsandconditions">Terms and Conditions</a></li>
-          <li><a href="#privacypolicy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms and Conditions</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#opensource">Dependent Open Source License</a></li>
         </ul>
       </div>
     </div>
